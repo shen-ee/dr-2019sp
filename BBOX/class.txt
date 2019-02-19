@@ -1,0 +1,13 @@
+Mouse
+Minion_Red
+Canon_Red
+Turret_Red
+Inhib_Red
+Nexus_Red
+Minion_Blue
+Canon_Blue
+Turret_Blue
+Inhib_Blue
+Nexus_Blue
+Ashe
+Galio
