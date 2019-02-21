@@ -11,3 +11,6 @@ Inhib_Blue
 Nexus_Blue
 Ashe
 Galio
+Zed
+Veigar
+Morgana
