@@ -1,10 +1,12 @@
 Mouse
 Minion_Red
+SuperMinion_Red
 Canon_Red
 Turret_Red
 Inhib_Red
 Nexus_Red
 Minion_Blue
+SuperMinion_Blue
 Canon_Blue
 Turret_Blue
 Inhib_Blue
