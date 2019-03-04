@@ -4,6 +4,16 @@
 
 
 
+### Requirements
+
+Python >= 3.6
+
+Anaconda
+
+pillow
+
+
+
 ### Scripts
 
 **labels2csv.py** Transform labels to trainable csv files for RetinaNet.
