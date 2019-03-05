@@ -1,0 +1,5 @@
+git clone https://github.com/fizyr/keras-retinanet
+pip install keras_resnet
+mv keras-retinanet/ k/
+cd k
+python setup.py build_ext --inplace
