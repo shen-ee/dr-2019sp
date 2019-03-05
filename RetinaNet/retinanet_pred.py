@@ -6,6 +6,7 @@ import sys
 from k.keras_retinanet.models import load_model
 
 import cv2
+import matplotlib
 import matplotlib.pyplot as plt
 from k.keras_retinanet.utils.image import read_image_bgr, preprocess_image, resize_image
 from k.keras_retinanet.utils.visualization import draw_box, draw_caption
@@ -17,6 +18,8 @@ labels_to_names = {0: 'Minion_Red', 1: 'Minion_Blue', 2: 'Turret_Blue', 3: 'Ashe
 
 
 def detect(path_img,path_model):
+    
+    matplotlib.use('Agg')
     ### load prediction model
     model = load_model(path_model, backbone_name='resnet50')
 
@@ -48,8 +51,19 @@ def detect(path_img,path_model):
     
     plt.figure(figsize=(15, 15))
     plt.axis('off')
+
+    # reduce white blank
+    height, width, channels = image.shape 
+    fig, ax = plt.subplots() 
+    fig.set_size_inches(width/100.0/3.0, height/100.0/3.0) 
+    plt.gca().xaxis.set_major_locator(plt.NullLocator()) 
+    plt.gca().yaxis.set_major_locator(plt.NullLocator()) 
+    plt.subplots_adjust(top=1,bottom=0,left=0,right=1,hspace=0,wspace=0) 
+
     plt.imshow(draw)
+    plt.savefig('output/'+path_img.split('/')[-1]+'.jpg' ,dpi = 300)
     plt.show()
+    
 
 def main():
     image_path = sys.argv[1]
