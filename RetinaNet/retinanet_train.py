@@ -5,7 +5,7 @@ import matplotlib.image as mpimg
 def train(labels, classes, weights, min_side, 
         max_size, epoch = 50, step = 100, lr = 1e-5):
     ### Windows
-    script_train = "python k/keras_retinanet/bin/train.py --workers=0"
+    script_train = "python k/keras_retinanet/bin/train.py --workers=0 --gpu 0 "
     script_convert = "python k/keras_retinanet/bin/convert_model.py "
     ### Linux
     # script_train = "k/keras_retinanet/bin/train.py"
@@ -42,7 +42,7 @@ def main():
     #     min_side = height, max_size = width, weights = "--no-weights")
 
     ### training from pretrained resnet50(in default), faster(do not need to train all the parameters, and 1 epoch is good enough to finish this task, but need to download pretrained model.)
-    train(step = num, epoch = 20, lr = 1e-3, 
+    train(step = num, epoch = 100, lr = 1e-3, 
         labels = labels_output_path, classes = classes_output_path,
         min_side = height, max_size = width, weights = "--freeze-backbone")
 
