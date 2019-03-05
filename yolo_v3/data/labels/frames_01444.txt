@@ -1,0 +1,7 @@
+6
+1159 345 1192 393 Mouse
+332 562 405 629 Minion_Blue
+355 752 424 812 Minion_Blue
+395 794 485 852 Minion_Blue
+495 599 662 727 SuperMinion_Blue
+257 647 357 815 Ashe

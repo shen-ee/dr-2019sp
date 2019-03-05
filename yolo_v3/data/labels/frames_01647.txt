@@ -1,0 +1,8 @@
+7
+1077 414 1107 453 Mouse
+1094 280 1217 370 Veigar
+846 288 923 380 Minion_Blue
+990 190 1063 289 Minion_Blue
+1084 132 1146 215 Minion_Blue
+1196 63 1261 117 Minion_Blue
+1253 17 1322 63 Minion_Blue

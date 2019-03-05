@@ -1,0 +1,7 @@
+6
+570 541 602 593 Mouse
+441 819 497 896 Minion_Blue
+633 744 693 817 Minion_Blue
+184 675 255 735 Minion_Blue
+581 698 700 754 Canon_Blue
+693 716 829 865 Veigar

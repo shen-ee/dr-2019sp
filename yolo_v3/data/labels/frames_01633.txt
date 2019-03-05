@@ -1,0 +1,6 @@
+5
+792 917 823 952 Mouse
+1585 172 1697 280 Veigar
+1409 80 1624 401 Turret_Blue
+967 441 1031 510 Minion_Blue
+1238 416 1315 478 Minion_Red

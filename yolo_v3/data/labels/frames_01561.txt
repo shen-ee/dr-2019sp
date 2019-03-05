@@ -1,0 +1,15 @@
+14
+24 666 170 773 Ashe
+1374 13 1568 239 Turret_Blue
+216 863 312 954 Minion_Red
+19 986 94 1063 Minion_Red
+389 741 468 825 Minion_Red
+551 672 662 775 Minion_Red
+608 564 658 654 Minion_Red
+1054 476 1201 610 Veigar
+656 562 706 631 Minion_Blue
+725 551 769 610 Minion_Blue
+668 516 735 568 Minion_Blue
+844 403 915 478 Minion_Blue
+817 366 896 416 Minion_Blue
+906 347 1007 414 Minion_Blue

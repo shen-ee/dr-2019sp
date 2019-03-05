@@ -1,0 +1,10 @@
+9
+729 631 802 695 Minion_Blue
+833 716 902 771 Minion_Blue
+902 764 958 842 Minion_Blue
+900 455 959 504 Minion_Blue
+961 512 1031 581 Minion_Blue
+1032 483 1146 624 SuperMinion_Blue
+672 672 779 808 Ashe
+935 182 1123 504 Turret_Red
+1238 157 1630 518 Nexus_Red

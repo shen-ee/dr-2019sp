@@ -1,0 +1,11 @@
+10
+959 537 994 587 Mouse
+610 754 696 829 Minion_Blue
+702 829 794 913 Minion_Blue
+769 881 852 927 Minion_Blue
+787 558 858 622 Minion_Blue
+852 610 919 696 Minion_Blue
+906 579 1080 725 SuperMinion_Blue
+520 835 647 933 Ashe
+810 293 1015 616 Turret_Red
+1153 278 1551 602 Nexus_Red

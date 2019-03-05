@@ -1,0 +1,11 @@
+10
+969 729 1000 781 Mouse
+823 744 902 819 Minion_Blue
+913 750 969 814 Minion_Blue
+635 798 704 833 Minion_Blue
+802 837 1002 933 SuperMinion_Blue
+946 641 1034 700 Minion_Red
+956 710 1025 810 Minion_Red
+1046 710 1111 798 Minion_Red
+1048 105 1246 445 Turret_Red
+1359 115 1716 468 Nexus_Red
