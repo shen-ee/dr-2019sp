@@ -13,7 +13,8 @@ from k.keras_retinanet.utils.colors import label_color
 
 ### used to fix some crash problem
 # os.environ['KMP_DUPLICATE_LIB_OK']='True'
-labels_to_names = {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5: 'bus', 6: 'train', 7: 'truck'}
+labels_to_names = {0: 'Minion_Red', 1: 'Minion_Blue', 2: 'Turret_Blue', 3: 'Ashe', 4: 'Mouse', 5: 'Canon_Red', 6: 'Veigar', 7: 'Canon_Blue',8:'Turret_Red'}
+
 
 def detect(path_img,path_model):
     ### load prediction model
