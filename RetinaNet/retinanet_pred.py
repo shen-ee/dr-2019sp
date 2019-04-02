@@ -38,7 +38,7 @@ def detect(path_img,path_model):
 
     for box, score, label in zip(boxes[0], scores[0], labels[0]):
     # scores are sorted so we can break
-        if score < 0.5:
+        if score < 0.9:
             break
             
         color = label_color(label)

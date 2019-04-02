@@ -54,7 +54,7 @@ def main():
         min_side = height, max_size = width, weights = "--freeze-backbone")
 
 if __name__ == '__main__':
-    # model_train = "snapshots/resnet50_csv_08.h5"
+    # model_train = "snapshots/resnet50_csv_21.h5"
     # model_pred = "pred.h5"
     # convert(model_train,model_pred)
     main()
