@@ -2,7 +2,7 @@ import ctypes
 from ctypes import wintypes
 import time
 
-import win32gui, win32api, win32con
+import  win32api, win32con
 
 user32 = ctypes.WinDLL('user32', use_last_error=True)
 
